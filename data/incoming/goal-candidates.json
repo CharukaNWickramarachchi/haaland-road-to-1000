@@ -1,0 +1,22 @@
+[
+  {
+    "provider": "API-Football",
+    "providerFixtureId": 1,
+    "providerEventId": "manual-2026-09-05-coventry-haaland",
+    "providerDetail": "Normal Goal",
+    "discoveredAt": "2026-09-06T00:00:00.000Z",
+    "date": "2026-09-05",
+    "club": "Manchester City",
+    "opponent": "Coventry City",
+    "competition": "Premier League",
+    "competitionType": "League",
+    "venue": "Home",
+    "minute": 26,
+    "addedTimeMinute": null,
+    "penalty": false,
+    "sourceUrl": "https://www.mancity.com/",
+    "sourceName": "API-Football",
+    "status": "rejected",
+    "notes": "Verified against Manchester City official match report: Manchester City 1-0 Coventry City, Haaland scored in the 26th minute. Promoted into source dataset."
+  }
+]

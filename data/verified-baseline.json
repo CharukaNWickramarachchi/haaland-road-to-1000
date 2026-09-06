@@ -1,0 +1,37 @@
+{
+  "verifiedThrough": "2026-08-31",
+  "methodologyVersion": "1.0",
+  "careerTotal": 361,
+  "teams": [
+    {
+      "team": "Bryne FK",
+      "expectedGoals": 0,
+      "sourceId": "uefa-haaland-career-2019"
+    },
+    {
+      "team": "Molde FK",
+      "expectedGoals": 20,
+      "sourceId": "uefa-haaland-career-2019"
+    },
+    {
+      "team": "FC Red Bull Salzburg",
+      "expectedGoals": 29,
+      "sourceId": "uefa-haaland-career-2019"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "expectedGoals": 86,
+      "sourceId": "bvb-haaland-final-total"
+    },
+    {
+      "team": "Manchester City",
+      "expectedGoals": 164,
+      "sourceId": "mancity-palace-2026-08-28"
+    },
+    {
+      "team": "Norway",
+      "expectedGoals": 62,
+      "sourceId": "nff-haaland-senior-profile"
+    }
+  ]
+}

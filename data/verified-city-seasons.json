@@ -1,0 +1,27 @@
+{
+  "verifiedThrough": "2026-08-31",
+  "team": "Manchester City",
+  "expectedTotal": 164,
+  "seasons": [
+    {
+      "season": "2022/23",
+      "expectedGoals": 52
+    },
+    {
+      "season": "2023/24",
+      "expectedGoals": 38
+    },
+    {
+      "season": "2024/25",
+      "expectedGoals": 34
+    },
+    {
+      "season": "2025/26",
+      "expectedGoals": 38
+    },
+    {
+      "season": "2026/27",
+      "expectedGoals": 2
+    }
+  ]
+}

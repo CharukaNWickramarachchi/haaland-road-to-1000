@@ -1,0 +1,11 @@
+{
+  "provider": "API-Football",
+  "teams": {
+    "Manchester City": {
+      "providerTeamId": 50
+    },
+    "Norway": {
+      "providerTeamId": 1090
+    }
+  }
+}

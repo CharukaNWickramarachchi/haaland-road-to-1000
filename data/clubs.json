@@ -1,0 +1,62 @@
+[
+  {
+    "id": "bryne",
+    "name": "Bryne FK",
+    "shortName": "Bryne",
+    "category": "Club",
+    "country": "Norway",
+    "activeFrom": null,
+    "activeTo": null,
+    "displayOrder": 1
+  },
+  {
+    "id": "molde",
+    "name": "Molde FK",
+    "shortName": "Molde",
+    "category": "Club",
+    "country": "Norway",
+    "activeFrom": null,
+    "activeTo": null,
+    "displayOrder": 2
+  },
+  {
+    "id": "salzburg",
+    "name": "FC Red Bull Salzburg",
+    "shortName": "Salzburg",
+    "category": "Club",
+    "country": "Austria",
+    "activeFrom": null,
+    "activeTo": null,
+    "displayOrder": 3
+  },
+  {
+    "id": "dortmund",
+    "name": "Borussia Dortmund",
+    "shortName": "Dortmund",
+    "category": "Club",
+    "country": "Germany",
+    "activeFrom": null,
+    "activeTo": null,
+    "displayOrder": 4
+  },
+  {
+    "id": "manchester-city",
+    "name": "Manchester City",
+    "shortName": "Man City",
+    "category": "Club",
+    "country": "England",
+    "activeFrom": null,
+    "activeTo": null,
+    "displayOrder": 5
+  },
+  {
+    "id": "norway",
+    "name": "Norway",
+    "shortName": "Norway",
+    "category": "National Team",
+    "country": "Norway",
+    "activeFrom": null,
+    "activeTo": null,
+    "displayOrder": 6
+  }
+]

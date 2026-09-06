@@ -1,0 +1,82 @@
+[
+  {
+    "id": "uefa-haaland-career-2019",
+    "name": "UEFA — Erling Braut Haaland: Dortmund's new signing by numbers",
+    "url": "https://www.uefa.com/uefachampionsleague/news/025a-0e9f8ba8ec7e-64c8a559c1e1-1000--erling-braut-haaland-dortmund-s-new-signing-by-numbers/",
+    "sourceType": "Official Competition",
+    "purpose": "Historical senior club totals for Bryne, Molde and Salzburg, including UEFA qualifying competition coverage.",
+    "coverage": "Bryne FK, Molde FK and FC Red Bull Salzburg",
+    "lastVerified": "2026-08-31",
+    "notes": "UEFA lists Bryne 16 appearances/0 goals, Molde 50/20 and Salzburg 27/29."
+  },
+  {
+    "id": "bvb-haaland-final-total",
+    "name": "Borussia Dortmund — Haaland final competitive total",
+    "url": "https://www.bvb.de/de/de/aktuelles/news/news.html/News/Uebersicht/Eine-BVB-Saison-ohne-Heim-Remis-und-mit-Tor-Rekord.html",
+    "sourceType": "Official Club",
+    "purpose": "Final Borussia Dortmund competitive goal total.",
+    "coverage": "Borussia Dortmund",
+    "lastVerified": "2026-08-31",
+    "notes": "Borussia Dortmund confirms Haaland scored 86 goals in 89 competitive appearances."
+  },
+  {
+    "id": "mancity-haaland-200-appearances",
+    "name": "Manchester City — Haaland reaches 200 City appearances",
+    "url": "https://www.mancity.com/news/mens/erling-haaland-200-manchester-city-appearances-63922654",
+    "sourceType": "Official Club",
+    "purpose": "Manchester City scoring baseline immediately before subsequent 2026/27 matches.",
+    "coverage": "Manchester City",
+    "lastVerified": "2026-08-31",
+    "notes": "Manchester City records 162 goals in Haaland's first 199 appearances."
+  },
+  {
+    "id": "mancity-palace-2026-08-28",
+    "name": "Manchester City — Crystal Palace 1-4 Manchester City",
+    "url": "https://www.mancity.com/news/mens/crystal-palace-manchester-city-202627-match-report-63923537",
+    "sourceType": "Official Club",
+    "purpose": "Verification of Haaland's two goals against Crystal Palace on 28 August 2026.",
+    "coverage": "Manchester City 2026/27",
+    "lastVerified": "2026-08-31",
+    "notes": "Haaland scored in the 17th and 84th minutes."
+  },
+  {
+    "id": "nff-haaland-senior-profile",
+    "name": "Norwegian Football Federation — Erling Braut Haaland profile",
+    "url": "https://www.fotball.no/fotballdata/person/profil/?fiksId=4166302",
+    "sourceType": "Official Association",
+    "purpose": "Official Norway senior international appearances and goals.",
+    "coverage": "Norway senior national team",
+    "lastVerified": "2026-08-31",
+    "notes": "NFF records 55 senior appearances and 62 senior goals, separately from youth international statistics."
+  },
+  {
+  "id": "transfermarkt-haaland-all-goals",
+  "name": "Transfermarkt — Erling Haaland All Goals",
+  "url": "https://www.transfermarkt.com/erling-haaland/alletore/spieler/418560",
+  "sourceType": "Secondary Database",
+  "purpose": "Goal-by-goal discovery and historical match-detail cross-reference.",
+  "coverage": "Senior club and international goal history",
+  "lastVerified": "2026-09-01",
+  "notes": "Secondary discovery source only. Aggregate career totals must be reconciled against official club, UEFA and national-association sources before publication."
+},
+{
+  "id": "fbref-haaland-goal-log",
+  "name": "FBref — Erling Haaland Goal Log",
+  "url": "https://fbref.com/en/players/1f44ac21/goallogs/all_comps/Erling-Haaland-Goal-Log",
+  "sourceType": "Statistical Provider",
+  "purpose": "Granular goal-event discovery including date, opponent, competition, venue, minute, score and assist.",
+  "coverage": "Erling Haaland club and international goal logs",
+  "lastVerified": "2026-09-01",
+  "notes": "Granular records are reconciled against official club and association aggregate totals before publication."
+},
+{
+  "id": "api-football-live-events",
+  "name": "API-Football Fixture Events",
+  "url": "https://www.api-football.com/",
+  "sourceType": "Statistical Provider",
+  "purpose": "Automated discovery of newly scored Haaland goals from completed fixture event data.",
+  "coverage": "Manchester City and Norway fixture events",
+  "lastVerified": "2026-09-06",
+  "notes": "Used for candidate discovery. New records are promoted to the canonical dataset only after verification."
+}
+]
