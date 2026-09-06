@@ -1,75 +1,56 @@
-# React + TypeScript + Vite
+# Haaland Road to 1000
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-style football analytics project tracking **Erling Haaland’s verified senior career goals** on the journey toward **1,000 goals**.
 
-Currently, two official plugins are available:
+The project combines a verified canonical goal dataset, automated validation, goal-by-goal analytics, milestone tracking, projection models, and a React-based public dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Live Website:**  
+https://haaland-road-to-1000.vercel.app
 
-## Expanding the ESLint configuration
+**GitHub Repository:**  
+https://github.com/CharukaNWickramarachchi/haaland-road-to-1000
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+> Replace the Vercel URL above if your final production URL is different.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Project Overview
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+**Haaland Road to 1000** is a data-driven football analytics application built to track Erling Haaland’s senior career scoring journey in a transparent and reproducible way.
 
-```
+The project is designed around one core principle:
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+> Every public career total should be derived from a verified, chronologically ordered canonical goal dataset.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Instead of manually maintaining headline statistics, the system derives totals, milestones, club splits, competition statistics, opponent records, progress percentages, and projections directly from the underlying goal records.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+The project currently tracks:
 
-```
+- Senior official club goals
+- Senior Norway national-team goals
+- Career goal chronology
+- Club totals
+- Competition totals
+- Season totals
+- Opponent statistics
+- Multi-goal matches
+- Hat-tricks
+- Goal timing
+- Milestones
+- Current progress toward 1,000
+- Statistical projections
+
+---
+
+## Current Verified Total
+
+At the current verified checkpoint:
+
+```text
+Career Goals: 362
+Remaining to 1000: 638
+Progress: 36.2%
