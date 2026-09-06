@@ -1,5 +1,4 @@
 import { ArrowRight, Database, ShieldCheck } from 'lucide-react'
-import { motion, useReducedMotion } from 'framer-motion'
 import { HeroSection } from '../components/home/HeroSection'
 
 import { useFootballDataset } from '../hooks/useFootballDataset'
@@ -12,7 +11,6 @@ import {
 
 export function HomePage() {
   const { data, loading, error } = useFootballDataset()
-  const reduceMotion = useReducedMotion()
 
   if (loading) {
     return (

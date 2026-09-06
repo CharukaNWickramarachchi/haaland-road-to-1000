@@ -1,7 +1,7 @@
 {
-  "verifiedThrough": "2026-08-31",
+  "verifiedThrough": "2026-09-05",
   "methodologyVersion": "1.0",
-  "careerTotal": 361,
+  "careerTotal": 362,
   "teams": [
     {
       "team": "Bryne FK",
@@ -25,7 +25,7 @@
     },
     {
       "team": "Manchester City",
-      "expectedGoals": 164,
+      "expectedGoals": 165,
       "sourceId": "mancity-palace-2026-08-28"
     },
     {
