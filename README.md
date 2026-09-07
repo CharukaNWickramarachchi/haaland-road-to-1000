@@ -14,8 +14,6 @@ https://haaland-road-to-1000.vercel.app
 **GitHub Repository:**  
 https://github.com/CharukaNWickramarachchi/haaland-road-to-1000
 
-> Replace the Vercel URL above if your final production URL is different.
-
 ---
 
 ## Project Overview
