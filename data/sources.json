@@ -30,6 +30,16 @@
     "notes": "Manchester City records 162 goals in Haaland's first 199 appearances."
   },
   {
+    "id": "mancity-palace-2026-08-28",
+    "name": "Manchester City — Crystal Palace 1-4 Manchester City",
+    "url": "https://www.mancity.com/news/mens/crystal-palace-manchester-city-202627-match-report-63923537",
+    "sourceType": "Official Club",
+    "purpose": "Verification of Haaland's two goals against Crystal Palace on 28 August 2026.",
+    "coverage": "Manchester City 2026/27",
+    "lastVerified": "2026-08-31",
+    "notes": "Haaland scored in the 17th and 84th minutes."
+  },
+  {
     "id": "nff-haaland-senior-profile",
     "name": "Norwegian Football Federation — Erling Braut Haaland profile",
     "url": "https://www.fotball.no/fotballdata/person/profil/?fiksId=4166302",
@@ -40,33 +50,43 @@
     "notes": "NFF records 55 senior appearances and 62 senior goals, separately from youth international statistics."
   },
   {
-  "id": "transfermarkt-haaland-all-goals",
-  "name": "Transfermarkt — Erling Haaland All Goals",
-  "url": "https://www.transfermarkt.com/erling-haaland/alletore/spieler/418560",
-  "sourceType": "Secondary Database",
-  "purpose": "Goal-by-goal discovery and historical match-detail cross-reference.",
-  "coverage": "Senior club and international goal history",
-  "lastVerified": "2026-09-01",
-  "notes": "Secondary discovery source only. Aggregate career totals must be reconciled against official club, UEFA and national-association sources before publication."
-},
-{
-  "id": "fbref-haaland-goal-log",
-  "name": "FBref — Erling Haaland Goal Log",
-  "url": "https://fbref.com/en/players/1f44ac21/goallogs/all_comps/Erling-Haaland-Goal-Log",
-  "sourceType": "Statistical Provider",
-  "purpose": "Granular goal-event discovery including date, opponent, competition, venue, minute, score and assist.",
-  "coverage": "Erling Haaland club and international goal logs",
-  "lastVerified": "2026-09-01",
-  "notes": "Granular records are reconciled against official club and association aggregate totals before publication."
-},
-{
-  "id": "api-football-live-events",
-  "name": "API-Football Fixture Events",
-  "url": "https://www.api-football.com/",
-  "sourceType": "Statistical Provider",
-  "purpose": "Automated discovery of newly scored Haaland goals from completed fixture event data.",
-  "coverage": "Manchester City and Norway fixture events",
-  "lastVerified": "2026-09-06",
-  "notes": "Used for candidate discovery. New records are promoted to the canonical dataset only after verification."
-}
+    "id": "transfermarkt-haaland-all-goals",
+    "name": "Transfermarkt — Erling Haaland All Goals",
+    "url": "https://www.transfermarkt.com/erling-haaland/alletore/spieler/418560",
+    "sourceType": "Secondary Database",
+    "purpose": "Goal-by-goal discovery and historical match-detail cross-reference.",
+    "coverage": "Senior club and international goal history",
+    "lastVerified": "2026-09-01",
+    "notes": "Secondary discovery source only. Aggregate career totals must be reconciled against official club, UEFA and national-association sources before publication."
+  },
+  {
+    "id": "fbref-haaland-goal-log",
+    "name": "FBref — Erling Haaland Goal Log",
+    "url": "https://fbref.com/en/players/1f44ac21/goallogs/all_comps/Erling-Haaland-Goal-Log",
+    "sourceType": "Statistical Provider",
+    "purpose": "Granular goal-event discovery including date, opponent, competition, venue, minute, score and assist.",
+    "coverage": "Erling Haaland club and international goal logs",
+    "lastVerified": "2026-09-01",
+    "notes": "Granular records are reconciled against official club and association aggregate totals before publication."
+  },
+  {
+    "id": "bsd-live-events",
+    "name": "Bzzoiro Sports Data — Football Match Incidents",
+    "url": "https://sports.bzzoiro.com/",
+    "sourceType": "Statistical Provider",
+    "purpose": "Automated detection and publication of new Erling Haaland senior goals from finished match incidents.",
+    "coverage": "Manchester City and Norway senior match incidents",
+    "lastVerified": "2026-09-09",
+    "notes": "Automated provider source. Haaland is matched using BSD player ID 852. Historical API-Football candidate records are retained only in the candidate audit file; all new automated publications use BSD."
+  },
+  {
+    "id": "mancity-coventry-2026-09-05",
+    "name": "Manchester City — Manchester City 1-0 Coventry City",
+    "url": "https://live.mancity.com/news/mens/manchester-city-v-coventry-city-match-report-63924211",
+    "sourceType": "Official Club",
+    "purpose": "Official verification of Erling Haaland's goal against Coventry City on 5 September 2026.",
+    "coverage": "Manchester City v Coventry City, Premier League, 5 September 2026",
+    "lastVerified": "2026-09-09",
+    "notes": "Official Manchester City match report confirms Haaland scored the only goal in the 26th minute with a header from Antoine Semenyo's cross."
+  }
 ]

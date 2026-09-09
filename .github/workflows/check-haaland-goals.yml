@@ -1,21 +1,26 @@
-name: Check Haaland Goals
+name: Update Haaland Goals
 
 on:
   workflow_dispatch:
-
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "17 * * * *"
 
 permissions:
   contents: write
 
+concurrency:
+  group: haaland-goal-update
+  cancel-in-progress: false
+
 jobs:
-  detect:
+  update:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v7
@@ -26,25 +31,43 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Detect new goals
+      - name: Detect, publish, validate and test goals
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-        run: npm run detect-goals
+          BSD_FOOTBALL_KEY: ${{ secrets.BSD_FOOTBALL_KEY }}
+        run: npm run auto-update
 
-      - name: Check for candidate changes
+      - name: Build application
+        run: npm run build
+
+      - name: Check production-data changes
         id: changes
+        shell: bash
         run: |
-          if git diff --quiet; then
+          if git diff --quiet -- \
+            data/goals.json \
+            data/canonical/goals.json \
+            data/incoming/goal-candidates.json \
+            data/data-version.json \
+            data/verified-baseline.json \
+            data/sources.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit candidate updates
+      - name: Commit automatic goal update
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "haaland-goal-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/incoming data/automation
-          git commit -m "Detect new Haaland goal candidates"
+
+          git add \
+            data/goals.json \
+            data/canonical/goals.json \
+            data/incoming/goal-candidates.json \
+            data/data-version.json \
+            data/verified-baseline.json \
+            data/sources.json
+
+          git commit -m "Auto-update Haaland career goals"
           git push

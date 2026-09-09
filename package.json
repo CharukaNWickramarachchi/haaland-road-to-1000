@@ -15,16 +15,16 @@
     "import-city": "tsx scripts/import-city-from-fbref.ts",
     "import-norway": "tsx scripts/import-norway-from-fbref.ts",
     "detect-goals": "tsx scripts/fetch-latest-haaland-goals.ts",
-    "resolve-provider-teams": "tsx scripts/resolve-api-football-teams.ts",
     "append-goals": "tsx scripts/append-goal-batch.ts",
     "check-data": "npm run build-canonical && npm run validate-data && npm run reconcile-data",
     "validate-data": "tsx scripts/validate-data.ts",
-    "verify-data": "tsx scripts/verify-data.ts",
     "reconcile-data": "tsx scripts/reconcile-baseline.ts",
     "verify": "npm run check-data && npm run test && tsc -b && vite build",
     "promote-goals": "tsx scripts/promote-verified-candidates.ts",
     "sync-data-version": "tsx scripts/sync-data-version.ts",
-    "refresh-canonical": "npm run promote-goals && npm run build-canonical && npm run sync-data-version && npm run validate-data && npm run reconcile-data"
+    "refresh-canonical": "npm run promote-goals && npm run build-canonical && npm run sync-data-version && npm run validate-data && npm run sync-baseline && npm run reconcile-data",
+    "sync-baseline": "tsx scripts/sync-verified-baseline.ts",
+    "auto-update": "npm run detect-goals && npm run promote-goals && npm run build-canonical && npm run sync-data-version && npm run validate-data && npm run sync-baseline && npm run reconcile-data && npm run test"
   },
   "dependencies": {
     "date-fns": "^4.4.0",

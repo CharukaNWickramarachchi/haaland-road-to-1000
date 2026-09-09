@@ -201,66 +201,28 @@ export type VerifiedBaseline = z.infer<
 >
 
 export const goalCandidateSchema = z.object({
-  provider: z.literal('API-Football'),
-
-  providerFixtureId:
-    z.number().int().positive(),
-
-  providerEventId:
-    z.string().min(1),
-
-  providerDetail:
-    z.string().nullable().optional(),
-
-  discoveredAt:
-    z.string().datetime(),
-
-  date:
-    z.string().date(),
-
-  club:
-    z.string().min(1),
-
-  opponent:
-    z.string().min(1),
-
-  competition:
-    z.string().min(1),
-
-  competitionType:
-    competitionTypeSchema,
-
-  venue:
-    venueSchema,
-
-  minute:
-    z.number().int().nonnegative().nullable(),
-
-  addedTimeMinute:
-    z.number().int().nonnegative().nullable(),
-
-  penalty:
-    z.boolean().nullable(),
-
-  sourceUrl:
-    z.string().url().nullable(),
-
-  sourceName:
-    z.literal('API-Football'),
-
-  status:
-    z.enum([
-      'candidate',
-      'verified',
-      'promoted',
-      'rejected',
-    ]),
-
-  notes:
-    z.string().nullable(),
+  provider: z.enum(['API-Football', 'BSD']),
+  providerFixtureId: z.number().int().positive(),
+  providerEventId: z.string().min(1),
+  providerDetail: z.string().nullable().optional(),
+  discoveredAt: z.string().datetime(),
+  date: z.string().date(),
+  club: z.string().min(1),
+  opponent: z.string().min(1),
+  competition: z.string().min(1),
+  competitionType: competitionTypeSchema,
+  venue: venueSchema,
+  minute: z.number().int().min(1).max(120).nullable(),
+  addedTimeMinute: z.number().int().min(1).max(30).nullable(),
+  penalty: z.boolean().nullable(),
+  bodyPart: bodyPartSchema.nullable().optional(),
+  assist: z.string().nullable().optional(),
+  scoreAfterGoal: z.string().nullable().optional(),
+  teamResult: matchResultSchema.nullable().optional(),
+  sourceUrl: z.string().url().nullable(),
+  sourceName: z.string().min(1),
+  status: z.enum(['candidate', 'verified', 'promoted', 'rejected']),
+  notes: z.string().nullable(),
 })
 
-export type GoalCandidate =
-  z.infer<
-    typeof goalCandidateSchema
-  >
+export type GoalCandidate = z.infer<typeof goalCandidateSchema>
