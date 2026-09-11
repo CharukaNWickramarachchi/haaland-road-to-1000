@@ -26,6 +26,26 @@ function normalizeText(
     .trim()
 }
 
+function normalizeCompetitionName(
+  competition: string,
+): string {
+  const normalized =
+    competition
+      .trim()
+      .toLowerCase()
+
+  if (
+    normalized === 'champions lg' ||
+    normalized === 'champions league' ||
+    normalized === 'uefa champions league' ||
+    normalized === 'ucl'
+  ) {
+    return 'UEFA Champions League'
+  }
+
+  return competition.trim()
+}
+
 function getMatchKey(
   goal: ExistingGoal,
 ): string {
@@ -237,7 +257,25 @@ async function main() {
           )
         }
 
-        return result.data
+        const goal =
+  result.data
+
+const competition =
+  normalizeCompetitionName(
+    goal.competition,
+  )
+
+return {
+  ...goal,
+
+  competition,
+
+  competitionType:
+    competition ===
+    'UEFA Champions League'
+      ? 'Continental'
+      : goal.competitionType,
+}
       },
     )
 
