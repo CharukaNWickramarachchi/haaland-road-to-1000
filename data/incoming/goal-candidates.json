@@ -66,5 +66,29 @@
     "sourceName": "BSD",
     "status": "promoted",
     "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Refreshed from the latest BSD finished-match incident payload. Refreshed from the latest BSD finished-match incident payload. Refreshed from the latest BSD finished-match incident payload. Processed by the automatic publication pipeline."
+  },
+  {
+    "provider": "BSD",
+    "providerFixtureId": 209572,
+    "providerEventId": "209572-852-60-0-8",
+    "providerDetail": "regular",
+    "discoveredAt": "2026-09-13T19:29:19.891Z",
+    "date": "2026-09-13",
+    "club": "Manchester City",
+    "opponent": "Manchester United",
+    "competition": "Premier League",
+    "competitionType": "League",
+    "venue": "Away",
+    "minute": 60,
+    "addedTimeMinute": null,
+    "penalty": false,
+    "bodyPart": "Left Foot",
+    "assist": null,
+    "scoreAfterGoal": "0-1",
+    "teamResult": "W",
+    "sourceUrl": "https://sports.bzzoiro.com/api/v2/events/209572/incidents/",
+    "sourceName": "BSD",
+    "status": "promoted",
+    "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Processed by the automatic publication pipeline."
   }
 ]

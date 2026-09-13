@@ -10190,5 +10190,33 @@
     "verified": true,
     "verificationNotes": "Automatically detected through BSD. Published from a finished-match goal incident after schema and duplicate validation. Provider detail: regular. Automatically detected from a finished BSD match using Erling Haaland player ID 852. Refreshed from the latest BSD finished-match incident payload. Refreshed from the latest BSD finished-match incident payload. Refreshed from the latest BSD finished-match incident payload.",
     "matchId": "bsd-601050"
+  },
+  {
+    "goalNumber": 365,
+    "player": "Erling Haaland",
+    "date": "2026-09-13",
+    "season": "2026/27",
+    "club": "Manchester City",
+    "opponent": "Manchester United",
+    "competition": "Premier League",
+    "competitionType": "League",
+    "venue": "Away",
+    "minute": 60,
+    "addedTimeMinute": null,
+    "scoreAfterGoal": "0-1",
+    "teamResult": "W",
+    "goalType": "Open Play",
+    "bodyPart": "Left Foot",
+    "penalty": false,
+    "freeKick": false,
+    "assist": null,
+    "assistType": null,
+    "sourceId": "bsd-live-events",
+    "sourceUrl": "https://sports.bzzoiro.com/api/v2/events/209572/incidents/",
+    "sourceName": "BSD",
+    "sourcePublishedAt": null,
+    "verified": true,
+    "verificationNotes": "Automatically detected through BSD. Published from a finished-match goal incident after schema and duplicate validation. Provider detail: regular. Automatically detected from a finished BSD match using Erling Haaland player ID 852.",
+    "matchId": "bsd-209572"
   }
 ]
