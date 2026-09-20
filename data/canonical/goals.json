@@ -10218,5 +10218,33 @@
     "verified": true,
     "verificationNotes": "Automatically detected through BSD. Published from a finished-match goal incident after schema and duplicate validation. Provider detail: regular. Automatically detected from a finished BSD match using Erling Haaland player ID 852.",
     "matchId": "bsd-209572"
+  },
+  {
+    "goalNumber": 366,
+    "player": "Erling Haaland",
+    "date": "2026-09-20",
+    "season": "2026/27",
+    "club": "Manchester City",
+    "opponent": "Sunderland",
+    "competition": "Premier League",
+    "competitionType": "League",
+    "venue": "Home",
+    "minute": 81,
+    "addedTimeMinute": null,
+    "scoreAfterGoal": "5-3",
+    "teamResult": "W",
+    "goalType": "Open Play",
+    "bodyPart": "Right Foot",
+    "penalty": false,
+    "freeKick": false,
+    "assist": "J. Gvardiol",
+    "assistType": null,
+    "sourceId": "bsd-live-events",
+    "sourceUrl": "https://sports.bzzoiro.com/api/v2/events/209581/incidents/",
+    "sourceName": "BSD",
+    "sourcePublishedAt": null,
+    "verified": true,
+    "verificationNotes": "Automatically detected through BSD. Published from a finished-match goal incident after schema and duplicate validation. Provider detail: regular. Automatically detected from a finished BSD match using Erling Haaland player ID 852.",
+    "matchId": "bsd-209581"
   }
 ]

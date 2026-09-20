@@ -90,5 +90,29 @@
     "sourceName": "BSD",
     "status": "promoted",
     "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Processed by the automatic publication pipeline."
+  },
+  {
+    "provider": "BSD",
+    "providerFixtureId": 209581,
+    "providerEventId": "209581-852-81-0-4",
+    "providerDetail": "regular",
+    "discoveredAt": "2026-09-20T16:50:23.181Z",
+    "date": "2026-09-20",
+    "club": "Manchester City",
+    "opponent": "Sunderland",
+    "competition": "Premier League",
+    "competitionType": "League",
+    "venue": "Home",
+    "minute": 81,
+    "addedTimeMinute": null,
+    "penalty": false,
+    "bodyPart": "Right Foot",
+    "assist": "J. Gvardiol",
+    "scoreAfterGoal": "5-3",
+    "teamResult": "W",
+    "sourceUrl": "https://sports.bzzoiro.com/api/v2/events/209581/incidents/",
+    "sourceName": "BSD",
+    "status": "promoted",
+    "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Processed by the automatic publication pipeline."
   }
 ]
