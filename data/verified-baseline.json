@@ -1,7 +1,7 @@
 {
-  "verifiedThrough": "2026-09-20",
+  "verifiedThrough": "2026-09-24",
   "methodologyVersion": "1.0",
-  "careerTotal": 366,
+  "careerTotal": 368,
   "teams": [
     {
       "team": "Bryne FK",
@@ -30,8 +30,8 @@
     },
     {
       "team": "Norway",
-      "expectedGoals": 62,
-      "sourceId": "nff-haaland-senior-profile"
+      "expectedGoals": 64,
+      "sourceId": "bsd-live-events"
     }
   ]
 }

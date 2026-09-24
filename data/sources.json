@@ -76,7 +76,7 @@
     "sourceType": "Statistical Provider",
     "purpose": "Automated detection and publication of new Erling Haaland senior goals from finished match incidents.",
     "coverage": "Manchester City and Norway senior match incidents",
-    "lastVerified": "2026-09-20",
+    "lastVerified": "2026-09-24",
     "notes": "Automated provider source. Haaland is matched using BSD player ID 852. Historical API-Football candidate records are retained only in the candidate audit file; all new automated publications use BSD."
   },
   {
