@@ -162,5 +162,29 @@
     "sourceName": "BSD",
     "status": "promoted",
     "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Processed by the automatic publication pipeline."
+  },
+  {
+    "provider": "BSD",
+    "providerFixtureId": 212615,
+    "providerEventId": "212615-852-51-0-18",
+    "providerDetail": "regular",
+    "discoveredAt": "2026-09-27T22:14:53.106Z",
+    "date": "2026-09-27",
+    "club": "Norway",
+    "opponent": "Portugal",
+    "competition": "UEFA Nations League",
+    "competitionType": "International",
+    "venue": "Home",
+    "minute": 51,
+    "addedTimeMinute": null,
+    "penalty": false,
+    "bodyPart": "Left Foot",
+    "assist": "P. Berg",
+    "scoreAfterGoal": "1-1",
+    "teamResult": "L",
+    "sourceUrl": "https://sports.bzzoiro.com/api/v2/events/212615/incidents/",
+    "sourceName": "BSD",
+    "status": "promoted",
+    "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Processed by the automatic publication pipeline."
   }
 ]
