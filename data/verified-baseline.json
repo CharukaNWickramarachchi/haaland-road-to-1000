@@ -1,7 +1,7 @@
 {
-  "verifiedThrough": "2026-09-27",
+  "verifiedThrough": "2026-10-11",
   "methodologyVersion": "1.0",
-  "careerTotal": 369,
+  "careerTotal": 370,
   "teams": [
     {
       "team": "Bryne FK",
@@ -25,7 +25,7 @@
     },
     {
       "team": "Manchester City",
-      "expectedGoals": 169,
+      "expectedGoals": 170,
       "sourceId": "bsd-live-events"
     },
     {

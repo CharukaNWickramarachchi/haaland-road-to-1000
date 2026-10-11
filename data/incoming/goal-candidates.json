@@ -186,5 +186,29 @@
     "sourceName": "BSD",
     "status": "promoted",
     "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Processed by the automatic publication pipeline."
+  },
+  {
+    "provider": "BSD",
+    "providerFixtureId": 209592,
+    "providerEventId": "209592-852-65-0-14",
+    "providerDetail": "regular",
+    "discoveredAt": "2026-10-11T20:19:54.183Z",
+    "date": "2026-10-11",
+    "club": "Manchester City",
+    "opponent": "Liverpool FC",
+    "competition": "Premier League",
+    "competitionType": "League",
+    "venue": "Away",
+    "minute": 65,
+    "addedTimeMinute": null,
+    "penalty": false,
+    "bodyPart": "Left Foot",
+    "assist": null,
+    "scoreAfterGoal": "0-1",
+    "teamResult": "W",
+    "sourceUrl": "https://sports.bzzoiro.com/api/v2/events/209592/incidents/",
+    "sourceName": "BSD",
+    "status": "promoted",
+    "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Processed by the automatic publication pipeline."
   }
 ]
