@@ -306,5 +306,29 @@
     "sourceName": "BSD",
     "status": "promoted",
     "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Processed by the automatic publication pipeline."
+  },
+  {
+    "provider": "BSD",
+    "providerFixtureId": 209606,
+    "providerEventId": "209606-852-52-0-15",
+    "providerDetail": "regular",
+    "discoveredAt": "2026-10-24T16:37:27.896Z",
+    "date": "2026-10-24",
+    "club": "Manchester City",
+    "opponent": "Aston Villa",
+    "competition": "Premier League",
+    "competitionType": "League",
+    "venue": "Away",
+    "minute": 52,
+    "addedTimeMinute": null,
+    "penalty": false,
+    "bodyPart": "Head",
+    "assist": "I. Ndiaye",
+    "scoreAfterGoal": "1-1",
+    "teamResult": "L",
+    "sourceUrl": "https://sports.bzzoiro.com/api/v2/events/209606/incidents/",
+    "sourceName": "BSD",
+    "status": "promoted",
+    "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Processed by the automatic publication pipeline."
   }
 ]
