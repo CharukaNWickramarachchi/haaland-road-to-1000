@@ -330,5 +330,29 @@
     "sourceName": "BSD",
     "status": "promoted",
     "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Processed by the automatic publication pipeline."
+  },
+  {
+    "provider": "BSD",
+    "providerFixtureId": 601087,
+    "providerEventId": "601087-852-78-0-8",
+    "providerDetail": "regular",
+    "discoveredAt": "2026-11-04T23:43:10.709Z",
+    "date": "2026-11-04",
+    "club": "Manchester City",
+    "opponent": "RB Leipzig",
+    "competition": "UEFA Champions League",
+    "competitionType": "Continental",
+    "venue": "Away",
+    "minute": 78,
+    "addedTimeMinute": null,
+    "penalty": false,
+    "bodyPart": "Left Foot",
+    "assist": "E. Anderson",
+    "scoreAfterGoal": "2-3",
+    "teamResult": "W",
+    "sourceUrl": "https://sports.bzzoiro.com/api/v2/events/601087/incidents/",
+    "sourceName": "BSD",
+    "status": "promoted",
+    "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Processed by the automatic publication pipeline."
   }
 ]

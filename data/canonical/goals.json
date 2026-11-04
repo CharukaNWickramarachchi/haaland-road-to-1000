@@ -10498,5 +10498,33 @@
     "verified": true,
     "verificationNotes": "Automatically detected through BSD. Published from a finished-match goal incident after schema and duplicate validation. Provider detail: regular. Automatically detected from a finished BSD match using Erling Haaland player ID 852.",
     "matchId": "bsd-209606"
+  },
+  {
+    "goalNumber": 376,
+    "player": "Erling Haaland",
+    "date": "2026-11-04",
+    "season": "2026/27",
+    "club": "Manchester City",
+    "opponent": "RB Leipzig",
+    "competition": "UEFA Champions League",
+    "competitionType": "Continental",
+    "venue": "Away",
+    "minute": 78,
+    "addedTimeMinute": null,
+    "scoreAfterGoal": "2-3",
+    "teamResult": "W",
+    "goalType": "Open Play",
+    "bodyPart": "Left Foot",
+    "penalty": false,
+    "freeKick": false,
+    "assist": "E. Anderson",
+    "assistType": null,
+    "sourceId": "bsd-live-events",
+    "sourceUrl": "https://sports.bzzoiro.com/api/v2/events/601087/incidents/",
+    "sourceName": "BSD",
+    "sourcePublishedAt": null,
+    "verified": true,
+    "verificationNotes": "Automatically detected through BSD. Published from a finished-match goal incident after schema and duplicate validation. Provider detail: regular. Automatically detected from a finished BSD match using Erling Haaland player ID 852.",
+    "matchId": "bsd-601087"
   }
 ]
