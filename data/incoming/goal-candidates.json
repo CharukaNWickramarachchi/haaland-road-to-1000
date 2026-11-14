@@ -354,5 +354,29 @@
     "sourceName": "BSD",
     "status": "promoted",
     "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Processed by the automatic publication pipeline."
+  },
+  {
+    "provider": "BSD",
+    "providerFixtureId": 212704,
+    "providerEventId": "212704-852-88-0-4",
+    "providerDetail": "penalty",
+    "discoveredAt": "2026-11-14T22:28:59.438Z",
+    "date": "2026-11-14",
+    "club": "Norway",
+    "opponent": "Wales",
+    "competition": "UEFA Nations League",
+    "competitionType": "International",
+    "venue": "Home",
+    "minute": 88,
+    "addedTimeMinute": null,
+    "penalty": true,
+    "bodyPart": "Left Foot",
+    "assist": null,
+    "scoreAfterGoal": "3-1",
+    "teamResult": "W",
+    "sourceUrl": "https://sports.bzzoiro.com/api/v2/events/212704/incidents/",
+    "sourceName": "BSD",
+    "status": "promoted",
+    "notes": "Automatically detected from a finished BSD match using Erling Haaland player ID 852. Processed by the automatic publication pipeline."
   }
 ]

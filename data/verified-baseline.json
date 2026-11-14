@@ -1,7 +1,7 @@
 {
-  "verifiedThrough": "2026-11-04",
+  "verifiedThrough": "2026-11-14",
   "methodologyVersion": "1.0",
-  "careerTotal": 376,
+  "careerTotal": 377,
   "teams": [
     {
       "team": "Bryne FK",
@@ -30,7 +30,7 @@
     },
     {
       "team": "Norway",
-      "expectedGoals": 65,
+      "expectedGoals": 66,
       "sourceId": "bsd-live-events"
     }
   ]
